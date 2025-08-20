@@ -4,6 +4,7 @@
   "workspaces": {
     "packages": [
       "platform/app",
+      "platform/app-custom",
       "platform/cli",
       "platform/ui-next",
       "platform/ui",
@@ -38,6 +39,7 @@
     "dev:fast": "cd platform/app && yarn run dev:fast",
     "show:config": "echo Config is $APP_CONFIG on $PUBLIC_URL",
     "dev": "lerna run dev:viewer --stream",
+    "dev:custom:viewer": "lerna run dev:custom:viewer --stream",
     "dev:no:cache": "lerna run dev:no:cache --stream",
     "dev:project": ".scripts/dev.sh",
     "dev:orthanc": "lerna run dev:orthanc --stream",
@@ -130,7 +132,7 @@
     "trim": "^1.0.0",
     "package-json": "^8.1.0",
     "sharp": "^0.32.6",
-    "rollup": "2.79.2",
+    "rollup": "^4.9.0",
     "body-parser": "1.20.3",
     "form-data": ">=4.0.4"
   },
