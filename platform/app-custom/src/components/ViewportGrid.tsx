@@ -1,5 +1,9 @@
 import React, { useEffect, useCallback, useRef } from 'react';
 import { Types } from '@ohif/core';
+// import Types from '@ohif/custom/type';
+//import { Types } from '@cornerstonejs/core';
+// import { HangingProtocol } from '@ohif/core';
+
 import { ViewportGrid, ViewportPane } from '@ohif/ui-next';
 import { useViewportGrid } from '@ohif/ui-next';
 import EmptyViewport from './EmptyViewport';

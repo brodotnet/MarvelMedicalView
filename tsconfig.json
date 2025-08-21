@@ -18,7 +18,7 @@
       "@ohif/ui": ["platform/ui/src"],
       "@ohif/ui-next": ["platform/ui-next/src"],
       "@ohif/i18n": ["platform/i18n/src"],
-      "@ohif/app": ["platform/app/src"],
+      "@ohif/app": ["platform/app-custom/src"],
       "@ohif/extension-default": ["./extensions/default/src"],
       "@ohif/extension-measurement-tracking": ["./extensions/measurement-tracking/src"],
       "@ohif/extension-cornerstone-dicom-sr": ["./extensions/cornerstone-dicom-sr/src"],
@@ -27,7 +27,7 @@
       "@ohif/mode-ultrasound-pleura-bline": ["./modes/usAnnotation/src"],
       "@ohif/extension-cornerstone": ["./extensions/cornerstone/src"],
       "@ohif/extension-dicom-pdf": ["./extensions/dicom-pdf/src"],
-      "@state": ["./platform/app/src/state"]
+      "@state": ["./platform/app-custom/src/state"]
     }
   },
   "include": [

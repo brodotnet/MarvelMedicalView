@@ -10,7 +10,9 @@ import { useTranslation } from 'react-i18next';
 import filtersMeta from './filtersMeta.js';
 import { useAppConfig } from '@state';
 import { useDebounce, useSearchParams } from '../../hooks';
-import { utils, Types as coreTypes } from '@ohif/core';
+import { utils } from '@ohif/core';
+// import { Types as coreTypes } from '@ohif/core'; // <-- Impor tipe UI dari @ohif/ui
+import { Types as coreTypes } from '@ohif/ui'; // <-- Impor tipe UI dari @ohif/ui
 
 import {
   StudyListExpandedRow,
